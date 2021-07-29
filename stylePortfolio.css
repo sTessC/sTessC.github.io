@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+  }
+
+  .bio_grid {
+    grid-column: 3;
+    grid-row: 2/3;
+    }
+
+  .spacer {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    }
+
+  .txt1 {
+    grid-column: 1/4;
+    grid-row: 2;
+    text-align: center;
+    font-weight: bold;
+      }
+
+.imgTess {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  border: 5px solid darkslategrey;
+  opacity: 90%;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    background-color: none;
+    color: #444;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+  }
+
+  .wrapper2 {
+    display: grid;
+    grid-gap: 10px;
+    background-color: none;
+    color: #444;
+    grid-template-columns: 900px 700px;
+    grid-template-rows: 200px 200px 200px;
+  } 
+
+  .aboutMe {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .imgTess_grid {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    }
+
+  
+  .box {
+    background-image: url(water2.jpg);
+    background-size: cover;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 400%;
+  }
+  .box_transparent{
+    background: none;
+    color: gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .box_opacity {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    text-align: center;
+    border: 3px solid darkslategrey;
+}
